@@ -7,10 +7,41 @@ class MyApp extends StatelessWidget {
       appBar: AppBar(
         title: Text('Login'),
       ),
-      body: Column(
-        children: [
-          Text('Logo'),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.red,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.green,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.red,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.green,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.red,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.green,
+            ),
+          ],
+        ),
       ),
     );
   }
