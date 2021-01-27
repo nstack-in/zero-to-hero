@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
+import 'lecture/l6-revision.dart';
 
 void main() {
-  runApp(
-    MaterialApp(home: DemoApp()),
-  );
+  runApp(Root());
 }
 
-class DemoApp extends StatelessWidget {
+class Root extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-    );
+    return MaterialApp(home: MyApp());
   }
 }
